@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+
+.bg{
+  width: 1250px;
+  height: 600px;
+}
+
+.bg2{
+  position: relative;
+  margin-top: -420px;
+  margin-left: 70px;
+  width: 1100px;
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+h3{
+
+  margin-top: 10px;
+  padding-left: 70px;
+  color: #F0872B;
+  font-family: 'Josefin sans',sans-serif;
+  line-height: 60px;
+  font-size: 40px;
+}
+
+p{
+  font-family: 'Source Sans pro',sans-serif;
+  padding-left: 70px;
+  word-spacing: 2.3px;
+  line-height: 25px;
+}
+
+
+nav{
+  width: 100%;
+  height: 60px;
+}
+
+nav ul{
+  text-decoration: none;
+}
+
+nav ul li{
+  display: inline-block;
+  margin-left: 20px;
+  padding: 0px 10px;
+  line-height: 50px;
+}
+
+nav ul li .home{
+  text-decoration: underline rgb(0,0,0, 0.5) 3px;
+
+}
+
+.button a input{
+  font-family: 'Nanum Gothic',sans-serif;
+  margin-left: 70px;
+  margin-top: 20px;
+  background-color: #ED852A;
+  border-color: #ED852A;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
+nav ul a{
+  font-family:'Nanum Gothic',sans-serif;
+  font-weight: bolder;
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+
+nav ul a:hover{
+  text-decoration: underline rgb(0,0,0, 0.5) 3px;
+
+}
